@@ -1,7 +1,7 @@
 # All unpinned blobs below are extracted from topaz OS2.0.9.0.VMGMIXM
 
 product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk
-product/priv-app/MIUIGalleryGlobal/MIUIGalleryGlobal.apk
+mi_ext/product/priv-app/MIUIVideoPlayer/MIUIVideoPlayer.apk:system/priv-app/MIUIVideoPlayer/MIUIVideoPlayer.apk
 system_ext/lib64/libcamera_algoup_jni.xiaomi.so:system/lib64/libcamera_algoup_jni.xiaomi.so
 system_ext/lib64/libcamera_mianode_jni.xiaomi.so:system/lib64/libcamera_mianode_jni.xiaomi.so
 system_ext/lib64/libmicampostproc_client.so:system/lib64/libmicampostproc_client.so
