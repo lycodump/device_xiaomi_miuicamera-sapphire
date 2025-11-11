@@ -13,4 +13,5 @@ MIUICAMERA_PATH := device/xiaomi/miuicamera-garnet
 TARGET_SYSTEM_PROP += $(MIUICAMERA_PATH)/system.prop
 
 # Sepolicy
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(MIUICAMERA_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(MIUICAMERA_PATH)/sepolicy/vendor
