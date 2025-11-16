@@ -1,4 +1,5 @@
 binder_call(hal_camera_default, platform_app)
+binder_call(hal_camera_default, surfaceflinger)
 
 hal_client_domain(hal_camera_default, vendor_hal_qspmhal)
 
@@ -7,3 +8,5 @@ allow hal_camera_default proc_pressure_cpu:file { read open getattr };
 allow hal_camera_default proc_pressure_mem:file { read open getattr };
 allow hal_camera_default proc_pressure_io:file { read open getattr };
 allow hal_camera_default vendor_sysfs_kgsl:file { read open getattr };
+
+allow hal_camera_default surfaceflinger:binder call;
