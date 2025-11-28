@@ -8,7 +8,6 @@ persist.camera.aiasd.isovalue      u:object_r:exported_default_prop:s0
 persist.vendor.low.cutoff          u:object_r:exported_default_prop:s0
 vendor.tag.nfe.rethrow             u:object_r:exported_default_prop:s0
 ro.vendor.aware_available          u:object_r:exported_default_prop:s0
-ro.hardware.chipname               u:object_r:exported_default_prop:s0
 
 # MIUI
 ro.miui.region                     u:object_r:exported_system_prop:s0
@@ -17,4 +16,3 @@ ro.miui.cust_device                u:object_r:exported_system_prop:s0
 ro.vendor.audio.zoom.type	   u:object_r:exported_default_prop:s0
 system.algo.aivs.debug		   u:object_r:exported_default_prop:s0
 ro.vendor.camera.res.fmq.size                   u:object_r:vendor_camera_prop:s0
-vendor.tag.nfe.rethrow                          u:object_r:vendor_camera_prop:s0
