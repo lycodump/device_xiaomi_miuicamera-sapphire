@@ -5,7 +5,7 @@
 #
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/miuicamera-garnet/miuicamera-garnet-vendor.mk)
+$(call inherit-product, vendor/xiaomi/miuicamera-garnet/miuicamera-sapphire-vendor.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
