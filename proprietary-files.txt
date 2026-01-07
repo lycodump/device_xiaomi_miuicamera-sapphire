@@ -1,0 +1,8 @@
+# All unpinned blobs below are extracted Update OS2.0.9.0.VNRMIXM
+
+product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk|9fe61feed6c2781d24609228a1ab8c58784c8f2d;OVERRIDES=Aperture,Snap,Camera2,GoogleCameraGo
+product/priv-app/ExtraPhotoGlobal/ExtraPhotoGlobal.apk
+system_ext/lib64/libcamera_algoup_jni.xiaomi.so:system/lib64/libcamera_algoup_jni.xiaomi.so
+system_ext/lib64/libcamera_mianode_jni.xiaomi.so:system/lib64/libcamera_mianode_jni.xiaomi.so
+system_ext/lib64/libmicampostproc_client.so:system/lib64/libmicampostproc_client.so
+system_ext/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so;MODULE_SUFFIX=_system

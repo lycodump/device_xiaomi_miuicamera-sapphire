@@ -1,0 +1,2 @@
+type vendor_sysfs_soc_sensitive, file_type;
+allow vendor_location vendor_sysfs_soc_sensitive:file read;

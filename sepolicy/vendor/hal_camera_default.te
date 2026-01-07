@@ -1,0 +1,14 @@
+type sysfs_camera, fs_type, sysfs_type;
+
+binder_call(hal_camera_default, platform_app)
+binder_call(hal_camera_default, cameraserver)
+
+allow hal_camera_default mnt_vendor_file:dir { search };
+allow hal_camera_default proc_stat:file { open read };
+allow hal_camera_default vendor_xdsp_device:chr_file { read };
+allow hal_camera_default sysfs:file { read open getattr };
+allow hal_camera_default sysfs_camera:file rw_file_perms;
+allow hal_camera_default system_data_file:dir { search getattr };
+allow hal_camera_default sysfs_thermal:file write;
+
+dontaudit hal_camera_default shell_data_file:dir search;

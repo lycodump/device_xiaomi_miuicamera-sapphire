@@ -1,0 +1,10 @@
+com.xiaomi.plugin.capbokeh.so
+com.xiaomi.plugin.ldc.so
+com.xiaomi.plugin.memcpy.so
+com.xiaomi.plugin.mfnr.so
+com.xiaomi.plugin.mibokeh.so
+com.xiaomi.plugin.morphohdr.so
+com.xiaomi.plugin.skinbeautifier.so
+com.xiaomi.plugin.swflip.so
+libcom.xiaomi.pluginutils.so
+libgui_vendor.so
